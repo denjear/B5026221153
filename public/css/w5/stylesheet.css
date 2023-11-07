@@ -1,0 +1,20 @@
+.bgwebsite{
+    background-color: #f5f5f5
+}
+.textWeb{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.heading{
+    font-weight: 800;
+    font-size: 64px
+}
+
+.bottom-div{
+    font-size: 32px;
+    font-weight: 300;
+    position:absolute;
+    bottom:0;
+    margin-bottom: 30px;
+}

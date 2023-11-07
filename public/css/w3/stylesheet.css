@@ -1,0 +1,63 @@
+body {
+    background: rgb(96,16,16);
+    background: linear-gradient(360deg, rgb(119, 20, 20) 0%, rgba(176, 16, 6, 1) 50%);
+    background-attachment: fixed;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+.faiz-nama{
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    text-align: center;
+    
+}
+
+.faiz-profpic{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    max-width: 100px;
+}
+.faiz-profname{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.faiz-under{
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}
+.faiz-links{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid white;
+    border-width: 1px;
+    border-radius: 40px;
+
+    display: block;
+    width: 600px;
+    
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    color: maroon;
+    background-color: white;
+}
+.faiz-linktree{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 90px;
+}

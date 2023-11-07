@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ETS Pemrograman Web - Faiz Musyaffa Ramadhan</title>
+    <!-- BS4 & CSS -->
+    <link href="css/landingpage/stylesheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- import fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,500&display=swap"
+        rel="stylesheet" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <!-- bagian navbar -->
+    <nav class="navbar navbar-expand bg-light navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">FMR</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portofolio">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- bagian header -->
+    <header>
+        <div class="container">
+            <div class="title">Welcome To My <b>Portofolio</b> Website</div>
+            <div class="isi">
+                Whatever your challenges, I'm always here to provide you with
+                <i><b>"long-term, high-trust"</b></i> software development services.
+            </div>
+        </div>
+    </header>
+    <!-- bagian section -->
+    <section id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 my-auto">
+                    <div class="pre-title">
+                        Get to Know Me
+                        <hr />
+                    </div>
+                    <div class="title">About</div>
+                    <div class="isi">
+                        Greetings! I'm <b>Faiz Musyaffa Ramadhan</b>, an enthusiastic
+                        software engineer, specializing in web and mobile development.
+                        Currently, I'm an undergraduate student pursuing a degree in
+                        Information Systems, equipping me with a solid foundation in
+                        technology. With a knack for crafting user-friendly websites and
+                        engaging mobile applications, I'm passionate about turning ideas
+                        into reality. Whether you're interested in collaboration, have
+                        inquiries, or simply want to connect, feel free to reach out.
+                        Let's embark on an exciting journey of innovation and creativity
+                        together!
+                    </div>
+                    <a href="#contact" class="btn btn-outline-dark">Contact</a>
+                </div>
+                <div class="col-3 my-auto">
+                    <img src="images/landingpage/foto-faiz.jpg" alt="my-photo" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+    <section id="services">
+        <div class="container">
+            <div class="pre-title">What can I do?</div>
+            <hr width="40%" />
+            <div class="title">Services</div>
+
+            <div class="card-columns">
+                <div class="card bg-light">
+                    <div class="card-body text-center p-3">
+                        <i class="fa fa-desktop" style="font-size: 64px; padding: 20px"></i>
+                        <p class="sub-title card-text">Desktop Solutions</p>
+                        <p class="isi card-text">
+                            Elevate your business with our comprehensive Desktop Solutions.
+                            We offer custom software and applications tailored to your
+                            unique needs, providing efficiency and productivity for your
+                            organization.
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-body text-center p-3">
+                        <i class="fa fa-globe" style="font-size: 64px; padding: 20px"></i>
+                        <p class="sub-title card-text">Website Development</p>
+                        <p class="isi card-text">
+                            Transform your online presence with our Website Development
+                            services. We create stunning, responsive websites that captivate
+                            your audience and drive results, ensuring a seamless digital
+                            experience for your visitors.
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-body text-center p-3">
+                        <i class="fa fa-mobile" style="font-size: 64px; padding: 20px"></i>
+                        <p class="sub-title card-text">Mobile Development</p>
+                        <p class="isi card-text">
+                            Stay ahead in the mobile world with our Mobile Development
+                            expertise. We craft user-friendly, cutting-edge mobile
+                            applications that engage your customers and keep your business
+                            accessible anytime, anywhere.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portofolio -->
+    <section id="portofolio">
+        <div class="container">
+            <div class="pre-title">
+                Here's My Recent Works
+                <hr width="30%" style="margin: 10px 0px 10px 0px" />
+            </div>
+            <div class="title">Portofolio</div>
+            <div class="card-columns">
+                <div class="card bg-light">
+                    <div class="zoom card-header bg-light">
+                        <img src="images/landingpage/landing-page.jpg" alt="Landing Page" />
+                    </div>
+                    <div class="card-body">
+                        <p class="sub-title card-text">Landing Page</p>
+                        <div class="tags">
+                            <div class="card-text">HTML</div>
+                            <div class="card-text">CSS</div>
+                            <div class="card-text">Bootstrap</div>
+                        </div>
+                        <p class="isi card-text">
+                            My landing page is a striking introduction to my web development
+                            skills. It's designed to leave a memorable first impression with
+                            its clean and modern aesthetic. Through this page, I showcase my
+                            expertise in creating visually appealing and user-friendly
+                            interfaces. It's not just a landing page; it's a powerful
+                            statement of my ability to capture your audience's attention and
+                            guide them seamlessly into your website.
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="zoom card-header bg-light">
+                        <img src="images/landingpage/mobile-apps.jpg" alt="Landing Page" />
+                    </div>
+                    <div class="card-body">
+                        <p class="sub-title card-text">Mobile Apps</p>
+                        <div class="tags">
+                            <div class="card-text">Java</div>
+                            <div class="card-text">Kotlin</div>
+                        </div>
+                        <p class="isi card-text">
+                            My mobile app portfolio showcases my passion for creating
+                            versatile and responsive solutions for the modern world. These
+                            apps are designed to enhance user experiences, whether it's
+                            simplifying daily tasks or providing entertainment. From iOS to
+                            Android, I've designed and developed apps that not only look
+                            great but also offer smooth performance and intuitive
+                            navigation. These mobile apps are a testament to my ability to
+                            transform ideas into functional and user-friendly applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="zoom card-header bg-light">
+                        <img src="images/landingpage/client-website.jpg" alt="Landing Page" />
+                    </div>
+                    <div class="card-body">
+                        <p class="sub-title card-text">Website</p>
+                        <div class="tags">
+                            <div class="card-text">Python</div>
+                            <div class="card-text">Javascript</div>
+                        </div>
+                        <p class="isi card-text">
+                            My website portfolio represents the core of my work. Each
+                            website I've developed is a unique blend of functionality and
+                            creativity, tailored to the specific needs of my clients. From
+                            e-commerce sites that drive sales to informative blogs that
+                            engage readers, these websites are a testament to my proficiency
+                            in front-end and back-end development. They're more than just
+                            digital spaces; they're solutions that make your online presence
+                            stand out.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- education -->
+
+    <section id="education">
+        <div class="container">
+            <div class="pre-title">My journey throughout</div>
+            <hr width="40%" />
+            <div class="title">Education</div>
+
+            <div class="container py-5">
+                <div class="main-timeline">
+                    <div class="timeline left">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="education-title">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <h4>Institut Teknologi Sepuluh Nopember Surabaya</h4>
+                                            <h6><b>Information Systems</b></h6>
+                                        </div>
+                                        <div class="col-3">
+                                            <h5>2022</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mb-0 mt-2">
+                                    Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad
+                                    nec admodum perfecto mnesarchum, vim ea mazim fierent
+                                    detracto. Ea quis iuvaret expetendis his, te elit voluptua
+                                    dignissim per, habeo iusto primis ea eam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline right">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="education-title">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <h4>SMAN 1 Kota Bekasi</h4>
+                                            <h6><b>Science</b></h6>
+                                        </div>
+                                        <div class="col-3">
+                                            <h5>2019</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mb-0 mt-2">
+                                    Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad
+                                    nec admodum perfecto mnesarchum, vim ea mazim fierent
+                                    detracto. Ea quis iuvaret expetendis his, te elit voluptua
+                                    dignissim per, habeo iusto primis ea eam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline left">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="education-title">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <h4>SMPN 1 Kota Bekasi</h4>
+                                        </div>
+                                        <div class="col-3">
+                                            <h5>2016</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mb-0 mt-2">
+                                    Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad
+                                    nec admodum perfecto mnesarchum, vim ea mazim fierent
+                                    detracto. Ea quis iuvaret expetendis his, te elit voluptua
+                                    dignissim per, habeo iusto primis ea eam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+
+        <div class="container">
+            <div class="pre-title">Business Inquiries?</div>
+            <div class="title">Contact</div>
+            <div class="container">
+                <form>
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Enter your name" id="contact-name"
+                            onkeyup="validateName()">
+                        <span id="name-error"></span>
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="tel" placeholder="081234567890" id="contact-phone"
+                            onkeyup="validatePhone()">
+                        <span id="phone-error"></span>
+                    </div>
+                    <div class="input-group">
+                        <label>Your Message</label>
+                        <textarea rows="2" placeholder="Enter your message" id="contact-message" onkeyup="validateMessage()"></textarea>
+                        <span id="message-error"></span>
+                    </div>
+                    <button class="btn btn-outline-dark" onclick="return validateForm()">Submit</button>
+                    <span id="submit-error"></span>
+                </form>
+                <script src="javascript/myscript.js"></script>
+            </div>
+
+    </section>
+    <section id="navigasi">
+        <div class="container navigasi">
+            <div class="judul">
+                <h1 class="text-center pt-4" style="font-weight: 800"> <i>NAVIGASI</i> </h1>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu1" target="_blank">
+                            <h1>Minggu ke-1</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu2" target="_blank">
+                            <h1>Minggu ke-2</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu3" target="_blank">
+                            <h1>Minggu ke-3</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu4" target="_blank">
+                            <h1>Minggu ke-4</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu5" target="_blank">
+                            <h1>Minggu ke-5</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu6" target="_blank">
+                            <h1>Minggu ke-6</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu7" target="_blank">
+                            <h1>Minggu ke-7</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Tutorial" target="_blank">
+                            <h1>Tutorial Laravel</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="Minggu10" target="_blank">
+                            <h1>Minggu ke-10</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p>UTS Pemrograman WEB 2023 - Faiz Musyaffa</p>
+                </div>
+                <div class="col-6">
+                    <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/faizmusyaffa/"
+                        target="_blank"></a>
+                    <a class="fa fa-facebook-square" href="https://www.facebook.com/faiz.musyaffa.10?locale=id_ID"
+                        target="_blank">
+                    </a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/faizmrx" target="_blank">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
