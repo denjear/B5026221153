@@ -13,26 +13,29 @@
 
 	<form action="/pegawai/store" method="post" class="form-horizontal">
 		{{ csrf_field() }}
-        <div class="form-group row mx-auto">
-            <label for="nama" class="col-xs-3 col-form-label mr-2 ml-2">Nama</label>
-            <div class="col-xs-9">
+        <div class="form-group row">
+            <label for="nama" class="col-sm-1 col-form-label mr-2">Nama</label>
+            <div class="col-sm-4">
             <input type="text" class="form-control" id="nama" name="nama">
-            </div>
-            <label for="jabatan" class="col-xs-3 col-form-label mr-2 ml-2">Jabatan</label>
-            <div class="col-xs-9">
-            <input type="text" class="form-control" id="jabatan" name="jabatan">
-            </div>
-            <label for="umur" class="col-xs-3 col-form-label mr-2 ml-2">Umur</label>
-            <div class="col-xs-9">
-            <input type="number" class="form-control" id="umur" name="umur">
-            </div>
-            <label for="alamat" class="col-xs-3 col-form-label mr-2 ml-2">Alamat</label>
-            <div class="col-xs-9">
-            <textarea type="text" class="form-control" id="alamat" name="alamat"></textarea>
             </div>
         </div>
         <div class="form-group row">
-
+            <label for="jabatan" class="col-sm-1 col-form-label mr-2">Jabatan</label>
+            <div class="col-sm-4">
+            <input type="text" class="form-control" id="jabatan" name="jabatan">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="umur" class="col-sm-1 col-form-label mr-2">Umur</label>
+            <div class="col-sm-1">
+            <input type="number" class="form-control" id="umur" name="umur">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="alamat" class="col-sm-1 col-form-label mr-2">Alamat</label>
+            <div class="col-sm-4">
+            <textarea type="text" class="form-control" id="alamat" name="alamat"></textarea>
+            </div>
         </div>
 		<input type="submit" value="Simpan Data" class="btn btn-success my-2">
 	</form>

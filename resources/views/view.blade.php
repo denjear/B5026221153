@@ -14,17 +14,37 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="my-2">
-                   <b>Nama:</b> {{ $p->pegawai_nama }}
+                <div class="row my-2">
+                    <div class="col-4">
+                        <b>Nama</b>
+                    </div>
+                    <div class="col-8">
+                        <b>: </b>{{ $p->pegawai_nama }}
+                    </div>
                 </div>
-                <div class="my-2">
-                    <b>Jabatan:</b> {{ $p->pegawai_jabatan }}
+                <div class="row my-2">
+                    <div class="col-4">
+                        <b>Jabatan</b>
+                    </div>
+                    <div class="col-8">
+                        <b>: </b>{{ $p->pegawai_jabatan }}
+                    </div>
                 </div>
-                <div class="my-2">
-                    <b>Umur:</b> {{ $p->pegawai_umur }}
+                <div class="row my-2">
+                    <div class="col-4">
+                        <b>Umur</b>
+                    </div>
+                    <div class="col-8">
+                        <b>: </b>{{ $p->pegawai_umur }}
+                    </div>
                 </div>
-                <div class="my-2">
-                    <b>Alamat:</b> {{ $p->pegawai_alamat }}
+                <div class="row my-2">
+                    <div class="col-4">
+                        <b>Alamat</b>
+                    </div>
+                    <div class="col-8">
+                        <b>: </b>{{ $p->pegawai_alamat }}
+                    </div>
                 </div>
                 <div class="text-center">
                     <a href="/pegawai" class='btn btn-outline-primary my-2'> OK </a>
