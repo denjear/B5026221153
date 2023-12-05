@@ -58,5 +58,15 @@ Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
-
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+
+//Route CRUD Latihan Soal
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+
+//Route CRUD Latihan Soal Keranjang
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index2');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+Route::get('/keranjangbelanja/batal/{ID}','App\Http\Controllers\KeranjangController@batal');

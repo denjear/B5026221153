@@ -23,10 +23,8 @@ class PegawaiController extends Controller
 	// method untuk menampilkan view form tambah pegawai
 	public function tambah()
 	{
-
 		// memanggil view tambah
 		return view('tambah');
-
 	}
 
 	// method untuk insert data ke table pegawai
