@@ -40,6 +40,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#navigasi">Kumpulan Tugas</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -395,6 +398,38 @@
                     <div class="card-body">
                         <a href="Minggu10" target="_blank">
                             <h1>Minggu ke-10</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/pegawai" target="_blank">
+                            <h1>DB Laravel Pegawai</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/nilaikuliah" target="_blank">
+                            <h1>DB Laravel Nilai Kuliah</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/keranjangbelanja" target="_blank">
+                            <h1>DB Laravel Belanja</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/dvd" target="_blank">
+                            <h1>Tugas Pra EAS</h1>
                         </a>
                     </div>
                 </div>

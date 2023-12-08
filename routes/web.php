@@ -70,3 +70,13 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index2'
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/batal/{ID}','App\Http\Controllers\KeranjangController@batal');
+
+//Route CRUD Tugas PraEAS
+Route::get('/dvd','App\Http\Controllers\DVDController@index');
+Route::get('/dvd/tambah','App\Http\Controllers\DVDController@tambah');
+Route::post('/dvd/store','App\Http\Controllers\DVDController@store');
+Route::get('/dvd/edit/{kodedvd}','App\Http\Controllers\DVDController@edit');
+Route::post('/dvd/update','App\Http\Controllers\DVDController@update');
+Route::get('/dvd/view/{kodedvd}','App\Http\Controllers\DVDController@view');
+Route::get('/dvd/hapus/{kodedvd}','App\Http\Controllers\DVDController@hapus');
+Route::get('/dvd/cari','App\Http\Controllers\DVDController@cari');
