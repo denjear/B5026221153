@@ -13,7 +13,7 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">5026221153</a>
+  <a class="navbar-brand" href="#">5026221153 Faiz Musyaffa Ramadhan</a>
 
   <!-- Links -->
   <ul class="navbar-nav">

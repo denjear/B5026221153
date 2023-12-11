@@ -80,3 +80,7 @@ Route::post('/dvd/update','App\Http\Controllers\DVDController@update');
 Route::get('/dvd/view/{kodedvd}','App\Http\Controllers\DVDController@view');
 Route::get('/dvd/hapus/{kodedvd}','App\Http\Controllers\DVDController@hapus');
 Route::get('/dvd/cari','App\Http\Controllers\DVDController@cari');
+
+//Route CRUD EAS
+Route::get('/kategori','App\Http\Controllers\EASController@index');
+Route::get('/kategori/view/{ID}','App\Http\Controllers\EASController@view');
